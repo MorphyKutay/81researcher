@@ -1,0 +1,8 @@
+jadx for Kali
+-------------
+
+We don't build the package. We import the .zip containing the precompiled
+.jar
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 24 Sep 2019 11:36:38 +0200
+

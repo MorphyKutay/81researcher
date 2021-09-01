@@ -1,0 +1,2 @@
+bin lib usr/share/jadx
+debian/helper-scripts/* usr/bin

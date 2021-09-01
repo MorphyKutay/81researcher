@@ -1,0 +1,28 @@
+Source: jadx
+Section: utils
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Sophie Brun <sophie@offensive-security.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.5.1
+Homepage: https://github.com/skylot/jadx
+Vcs-Browser: https://gitlab.com/kalilinux/packages/jadx
+Vcs-Git: https://gitlab.com/kalilinux/packages/jadx.git
+
+Package: jadx
+Architecture: all
+Depends: ${misc:Depends}, default-jre
+Description: Dex to Java decompiler
+ This package contains a Dex to Java decompiler. It contains a command line and
+ GUI tools for produce Java source code from Android Dex and Apk files.
+ .
+ Main features:
+    - decompile Dalvik bytecode to java classes from APK, dex, aar and zip files
+    - decode AndroidManifest.xml and other resources from resources.arsc
+    - deobfuscator included
+ .
+ jadx-gui features:
+    - view decompiled code with highlighted syntax
+    - jump to declaration
+    - find usage
+    - full text search

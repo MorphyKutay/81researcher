@@ -1,0 +1,3 @@
+version=4
+https://github.com/skylot/jadx/releases \
+   (?:.*?/)?jadx-v?(\d[\d.]*)\.zip debian uupdate
